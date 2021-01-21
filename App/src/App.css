@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(8, 25, 73);
+  color: rgb(25, 236, 18);
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+a:-webkit-any-link {
+  color: rgb(20, 20, 20);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.poster {
+  width: 40%;
+  height: 20%;
+}
+
+.about-personajes {
+  color: rgb(15, 238, 15);
+}
